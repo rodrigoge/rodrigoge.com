@@ -1,12 +1,12 @@
 import React from 'react';
 import './styles.scss';
 
-import Header from '../../components/Header';
+import NavBar from '../../components/NavBar';
 
 export default function Home() {
     return (
         <div id="home">
-            <Header />
+            <NavBar />
 
             <main>
                 Main text
