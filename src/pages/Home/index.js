@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.scss';
 
 import NavBar from '../../components/NavBar';
+import Footer from '../../components/Footer';
 
 export default function Home() {
     return (
@@ -11,6 +12,8 @@ export default function Home() {
             <main>
                 Main text
             </main>
+
+            <Footer />
         </div>
     );
 }
