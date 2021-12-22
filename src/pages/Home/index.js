@@ -14,19 +14,21 @@ export default function Home() {
             <NavBar />
 
             <main>
-                <div className="hero">
-                    <div className="title">
-                        <h1>Rodrigo Gouveia</h1>
-                        <span role="img">👋🏽</span>
+                <aside>
+                    <div>
+                        <div className="title">
+                            <h1>Rodrigo Gouveia</h1>
+                            <span role="img">👋🏽</span>
+                        </div>
+
+                        <p className="sub-title">Desenvolvedor Web & UI Design</p>
+
+                        <Link to="/" className="cta-link">
+                            <p>Clique <span>aqui</span> para começar.</p>
+                        </Link>
                     </div>
 
-
-                    <p className="sub-title">Desenvolvedor Web & UI Design</p>
-
-                    <Link to="/" className="cta-link">
-                        <p>Clique <span>aqui</span> para começar.</p>
-                    </Link>
-                </div>
+                </aside>
 
                 <div className="hero-image">
                     <img src={heroImg} alt="Hero" />

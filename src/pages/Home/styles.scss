@@ -1,28 +1,22 @@
-main{
+main{    
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    
-    width: 100vw;
-    height: 82vh;
+    justify-content: center;
 
-    color: white;
+    height: 85vh;
 
-    gap: 120px;
-
-    .hero{
-        display: flex;
-        flex-direction: column;
+    aside{
+        width: 400px;
+        height: 70%;
+        color: #f3f3f3;
         
-        height: 85%;
-
         .title{
             display: flex;
-            flex-direction: row;
 
             h1{
                 text-transform: uppercase;
+
+                font-size: 32px;
                 font-family: 'Poppins', sans-serif;
 
                 animation: fade 1.5s;
@@ -38,6 +32,8 @@ main{
 
         .sub-title{
             text-transform: uppercase;
+
+            font-size: 18px;
             font-family: 'Poppins', sans-serif; 
 
             animation: fade 2.5s;
@@ -45,11 +41,12 @@ main{
 
         .cta-link{
             font-family: 'IBM Plex Mono', sans-serif;
-
-            animation: fade 3s;
+            
             
             p{
                 margin-top: 12px;
+                animation: fade 3s;
+                font-size: 18px;
 
                 span{
                     color: #7879F1;
@@ -60,9 +57,45 @@ main{
     }
 
     .hero-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         animation: fade 2.5s;
+
+        height: 100%;
+
         img{
-            width: 420px;
+            max-width: 100%;
         }
     }
 }
+
+@media (max-width: 1368px){
+    main{    
+        .hero-image{  
+            width: 40%;
+            justify-content: flex-end;
+
+            img{
+                max-width: 80%;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px){
+    main{ 
+        aside{
+            display: flex;
+            justify-content: center;
+            
+            margin-top: 100px;
+        }
+
+        .hero-image{  
+            display: none;
+        }
+    }
+}
+
