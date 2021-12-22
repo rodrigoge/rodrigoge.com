@@ -31,7 +31,7 @@ export default function NavBar() {
                     </div>
 
                     <ul>
-                        <Link className="menu-link" to="/">
+                        <Link className="menu-link" to="/sobre">
                             sobre
                         </Link>
 

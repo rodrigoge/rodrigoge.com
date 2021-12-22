@@ -2,6 +2,7 @@ import React from 'react';
 
 import './styles/base.scss';
 import './styles/layout.scss';
+import './styles/scrollbar.scss';
 
 import Routes from './routes';
 
