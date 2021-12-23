@@ -23,7 +23,7 @@ export default function Home() {
 
                         <p className="sub-title">Desenvolvedor Web & UI Design</p>
 
-                        <Link to="/" className="cta-link">
+                        <Link to="/sobre" className="cta-link">
                             <p>Clique <span>aqui</span> para começar.</p>
                         </Link>
                     </div>

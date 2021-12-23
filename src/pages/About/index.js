@@ -15,7 +15,7 @@ export default function About() {
 
             <main className="main-about">
                 <div className="main-content">
-                    <h1>Um pouco mais sobre mim</h1>
+                    <h1>Um pouco mais sobre mim.</h1>
 
                     <div className="main-header">
                         <img src={heroAboutImg} alt="Foto Rodrigo Gouveia" />

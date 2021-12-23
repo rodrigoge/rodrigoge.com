@@ -35,7 +35,7 @@ export default function NavBar() {
                             sobre
                         </Link>
 
-                        <Link className="menu-link" to="/">
+                        <Link className="menu-link" to="/artigos">
                             artigos
                         </Link>
 
