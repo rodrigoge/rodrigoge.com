@@ -1,0 +1,73 @@
+.main-projects{
+    margin: 0 auto;
+
+    max-width: 75%;
+    height: 85vh;
+
+    overflow-y: scroll;
+
+    padding-bottom: 90px;
+
+    .main-content-projects{
+        h1{
+            font-size: 26px;
+            font-family: 'Poppins', sans-serif;
+    
+            animation: fade 1.5s;
+            color: #f3f3f3;
+        }
+
+        p{
+            color: #f3f3f3;
+            font-family: 'IBM Plex Mono', sans-serif;
+            font-size: 16px;
+            text-align: justify;
+
+            margin-top: 18px;
+            line-height: 24px;
+
+            animation: fade 2s;
+        }
+    }
+
+    .projects-content{
+        margin-top: 48px;
+
+        h2{
+            font-family: 'Poppins', sans-serif;
+    
+            animation: fade 1.5s;
+            color: #f3f3f3;
+        }
+
+        .project{
+
+            font-family: 'Poppins', sans-serif;
+            animation: fade 2s;
+            color: #f3f3f3;
+
+            margin-top: 18px;
+            
+            .project-link{
+                margin: 0 6px;
+                text-decoration: underline;
+                font-weight: bold;
+            }            
+        }
+    }
+}
+
+@media(max-width: 800px){
+    .main-projects{
+        padding-right: 26px;
+
+        .projects-content{
+            .project{
+                
+                span{
+                    
+                }
+            }
+        }
+    }
+}
