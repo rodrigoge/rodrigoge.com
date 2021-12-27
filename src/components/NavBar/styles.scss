@@ -3,6 +3,7 @@ header {
     position: relative;
     margin-left: 30px;
     height: 8%;
+    overflow: hidden;
 
     nav{
         max-width: 95%;
@@ -92,6 +93,7 @@ header {
             .menu{
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 z-index: 10;
     
                 .menu-bars{
@@ -117,7 +119,7 @@ header {
                     align-items: center;
                     flex-direction: column;
     
-                    width: 90vw;
+                    width: 80vw;
                     height: 90vh;
     
                     .menu-link{
