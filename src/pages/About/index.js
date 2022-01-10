@@ -38,7 +38,7 @@ export default function About() {
                 <div className="habilities">
                     <h2>Habilidades</h2>
 
-                    <p>Spring Boot, JSF (Java ServerFaces), Primefaces, Hibernate, ReactJS, Node.js, Sass, MySQL, PostgreSQL, MongoDB, Figma.</p>
+                    <p>Spring (Boot, Web, MVC, Data JPA), JSF (Java ServerFaces), Primefaces, Hibernate, ReactJS, Node.js, Sass, MySQL, PostgreSQL, MongoDB, Figma.</p>
                 </div>
 
                 <div className="career">

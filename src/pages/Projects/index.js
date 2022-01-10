@@ -39,6 +39,14 @@ export default function Projects() {
 
                         <p className="project">
                             ●
+                            <Link className="project-link" to={{ pathname: "https://github.com/rodrigoge/authenticator" }} target="_blank">
+                                Authenticator:
+                            </Link>
+                            microsserviço para criação e autenticação de usuários.
+                        </p>
+
+                        <p className="project">
+                            ●
                             <Link className="project-link" to={{ pathname: "https://github.com/rodrigoge/noturnal" }} target="_blank">
                                 Noturnal Theme:
                             </Link>
